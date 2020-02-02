@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item android:id="@+id/item1"
+        android:title="Red"/>
+
+    <item android:id="@+id/item2"
+        android:title="Green"/>
+
+    <item android:id="@+id/item3"
+        android:title="Blue"
+        app:showAsAction="withText"/>
+
+</menu>
